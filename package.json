@@ -1,0 +1,14 @@
+{
+  "name": "h5-diy",
+  "version": "1.0.0",
+  "description": "自定义h5项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "h5"
+  ],
+  "author": "liangyu",
+  "license": "ISC"
+}
