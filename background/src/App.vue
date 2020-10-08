@@ -1,5 +1,8 @@
 <template>
-  <section id="app">
+  <section
+    id="app"
+    class="h-layout"
+  >
     <h-sidebar />
     <section>
       <h-header />

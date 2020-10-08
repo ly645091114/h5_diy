@@ -1,4 +1,4 @@
-import '@/assets/less/index.less'
+import '@/assets/less/index.scss'
 import Vue from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'

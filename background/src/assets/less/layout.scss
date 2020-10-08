@@ -1,0 +1,15 @@
+aside {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  height: calc(100% - 20px);
+  background: $color-white;
+  border-radius: $border-radius-large;
+  box-shadow: $box-shadow-base;
+  left: 10px;
+  width: $sidebar-width;
+}
+
+header {
+  width: 100%;
+}

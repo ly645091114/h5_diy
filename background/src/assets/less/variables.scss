@@ -1,0 +1,49 @@
+// base
+$font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+$background: #f5f9ff;
+$font-size-base: 14px;
+$line-height-base: 1.5;
+
+// base-font
+$font-ex-small: 12px;
+$font-small: 13px;
+$font-mid: 16px;
+$font-large: 18px;
+$font-ex-large: 20px;
+
+// base-color
+// default
+$color-white: #fff;
+$color-black: #000;
+$color-brand: #2e7bff;
+
+// font
+$color-font-default: #666;
+$color-font-main: #333;
+$color-font-sup: #999;
+$color-font-placeholder: #ccc;
+
+// border
+$color-border-first: #dcdfe6;
+$color-border-second: #e4e7ed;
+$color-border-third: #ebeef5;
+$color-border-fourth: #f2f6fc;
+
+// status
+$color-success: #67c23a;
+$color-warning: #e6a23c;
+$color-danger: #f56c6c;
+$color-info: #999;
+
+// border-radius
+$border-radius-none: 0;
+$border-radius-small: 2px;
+$border-radius-large: 4px;
+$border-radius-circle: 30px;
+
+// box-shadow
+$box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+$box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+// layout
+$sidebar-width: 210px;

@@ -1,0 +1,17 @@
+@import './config.scss';
+// 控制用户能否选中文本
+@mixin utils-user-select($value) {
+  -moz-user-select: $value;
+  -webkit-user-select: $value;
+  -ms-user-select: $value;
+}
+
+// 混合背景色用于颜色色淡化配合
+@mixin background-mix($main-color, $auxiliary-color, $scale) {
+  background: mix($main-color, $auxiliary-color, $scale);
+}
+
+// 混合边框色用于颜色色淡化配合
+@mixin border-mix($main-color, $auxiliary-color, $scale) {
+  border-color: mix($main-color, $auxiliary-color, $scale);
+}

@@ -10,5 +10,6 @@
     "h5"
   ],
   "author": "liangyu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
