@@ -1,4 +1,6 @@
 @import './config.scss';
+@import './bem.scss';
+
 // 控制用户能否选中文本
 @mixin utils-user-select($value) {
   -moz-user-select: $value;

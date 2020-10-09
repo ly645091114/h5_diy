@@ -4,9 +4,9 @@
     class="h-layout"
   >
     <h-sidebar />
-    <section>
+    <section class="h-layout__main">
       <h-header />
-      <!-- <router-view/> -->
+      <router-view/>
     </section>
   </section>
 </template>

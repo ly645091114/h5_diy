@@ -2,14 +2,33 @@ aside {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  height: calc(100% - 20px);
-  background: $color-white;
-  border-radius: $border-radius-large;
-  box-shadow: $box-shadow-base;
-  left: 10px;
+  height: calc(100% - 48px);
+  background: $background-sidebar;
+  border-radius: $border-radius-sidebar-out;
+  left: 24px;
   width: $sidebar-width;
 }
 
-header {
+@include b(layout) {
+  position: relative;
   width: 100%;
+  @include e(main) {
+    min-height: 100%;
+    transition: margin-left .28s;
+    margin-left: calc(#{$sidebar-width} + 40px);
+    position: relative;
+    padding: 24px 0;
+    padding-right: 24px;
+    header {
+      width: 100%;
+      height: $height-header;
+      background: $color-white;
+      border-radius: $border-radius-ex-large;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px;
+    }
+  }
 }

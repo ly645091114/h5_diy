@@ -1,5 +1,8 @@
 <template>
-  <header>这是头部</header>
+  <header>
+    <section>left</section>
+    <section>right</section>
+  </header>
 </template>
 <script lang="ts">
 import {

@@ -1,5 +1,7 @@
 <template>
-  <aside>这是侧边栏</aside>
+  <aside>
+    <section class="h-sidebar__logo"></section>
+  </aside>
 </template>
 <script lang="ts">
 import {
@@ -11,3 +13,16 @@ import {
 
 export default class HSidebar extends Vue {}
 </script>
+<style lang="scss" scoped>
+@import '@/assets/scss/variables.scss';
+@import '@/assets/scss/mixins/bem.scss';
+
+@include b(sidebar) {
+  @include e(logo) {
+    margin: 16px auto;
+    width: 208px;
+    height: 64px;
+    background: $color-white;
+  }
+}
+</style>
